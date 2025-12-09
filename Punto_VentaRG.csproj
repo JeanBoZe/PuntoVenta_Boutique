@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DF6FC7C4-97A9-4263-B980-98D0A188420A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Punto_VentaRG</RootNamespace>
+    <AssemblyName>RG Clothing</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>F:\BoutiqueInstalador\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>5</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icono_RG.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>C377684185594F3157046B169EA9FE981B7CEA4F</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Punto_VentaRG_4_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clases\Conexion.cs" />
+    <Compile Include="Clases\csCategoria.cs" />
+    <Compile Include="Clases\csMarca.cs" />
+    <Compile Include="Clases\csRptVentas.cs" />
+    <Compile Include="Clases\csVenta.cs" />
+    <Compile Include="Clases\Producto.cs" />
+    <Compile Include="Entidad\csCarrito.cs" />
+    <Compile Include="Entidad\csCategoria.cs" />
+    <Compile Include="Entidad\csMarca.cs" />
+    <Compile Include="Entidad\DetalleVenta.cs" />
+    <Compile Include="Entidad\Producto.cs" />
+    <Compile Include="Entidad\ProductoVariante.cs" />
+    <Compile Include="Entidad\Rep_Venta.cs" />
+    <Compile Include="Entidad\VentaCS.cs" />
+    <Compile Include="Forms\Busqueda_Producto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Busqueda_Producto.Designer.cs">
+      <DependentUpon>Busqueda_Producto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CatMar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CatMar.Designer.cs">
+      <DependentUpon>CatMar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Producto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Producto.Designer.cs">
+      <DependentUpon>Producto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Producto_Registrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Producto_Registrar.Designer.cs">
+      <DependentUpon>Producto_Registrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Rpt_Ventas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Rpt_Ventas.Designer.cs">
+      <DependentUpon>Rpt_Ventas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Forms\Venta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Venta.Designer.cs">
+      <DependentUpon>Venta.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\Busqueda_Producto.resx">
+      <DependentUpon>Busqueda_Producto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CatMar.resx">
+      <DependentUpon>CatMar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Producto.resx">
+      <DependentUpon>Producto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Producto_Registrar.resx">
+      <DependentUpon>Producto_Registrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Rpt_Ventas.resx">
+      <DependentUpon>Rpt_Ventas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Forms\Venta.resx">
+      <DependentUpon>Venta.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Punto_VentaRG_4_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\agregar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\cancelar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\guardar_compra.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\lupa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\nueva_compra.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\usuario_icono.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\arrow_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\download-solid-full.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\trash-can-solid-full.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\paquete-o-empaquetar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\magnifying-glass-solid-full.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\user_icono.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\cerrar_sesion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\cerrar_sesion 40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icono_RG.ico" />
+    <None Include="Images\boutique.png" />
+    <None Include="Images\minimizar.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

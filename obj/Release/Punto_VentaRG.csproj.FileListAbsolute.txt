@@ -1,0 +1,21 @@
+D:\Proyectos C# - Personal\Punto_VentaRG\bin\Release\RG Clothing.exe.config
+D:\Proyectos C# - Personal\Punto_VentaRG\bin\Release\RG Clothing.exe.manifest
+D:\Proyectos C# - Personal\Punto_VentaRG\bin\Release\RG Clothing.application
+D:\Proyectos C# - Personal\Punto_VentaRG\bin\Release\RG Clothing.exe
+D:\Proyectos C# - Personal\Punto_VentaRG\bin\Release\RG Clothing.pdb
+D:\Proyectos C# - Personal\Punto_VentaRG\obj\Release\Punto_VentaRG.csproj.AssemblyReference.cache
+D:\Proyectos C# - Personal\Punto_VentaRG\obj\Release\Punto_VentaRG.Busqueda_Producto.resources
+D:\Proyectos C# - Personal\Punto_VentaRG\obj\Release\Punto_VentaRG.Forms.CatMar.resources
+D:\Proyectos C# - Personal\Punto_VentaRG\obj\Release\Punto_VentaRG.Forms.Login.resources
+D:\Proyectos C# - Personal\Punto_VentaRG\obj\Release\Punto_VentaRG.Menu.resources
+D:\Proyectos C# - Personal\Punto_VentaRG\obj\Release\Punto_VentaRG.Producto.resources
+D:\Proyectos C# - Personal\Punto_VentaRG\obj\Release\Punto_VentaRG.Forms.Producto_Registrar.resources
+D:\Proyectos C# - Personal\Punto_VentaRG\obj\Release\Punto_VentaRG.Forms.Rpt_Ventas.resources
+D:\Proyectos C# - Personal\Punto_VentaRG\obj\Release\Punto_VentaRG.Properties.Resources.resources
+D:\Proyectos C# - Personal\Punto_VentaRG\obj\Release\Punto_VentaRG.Venta.resources
+D:\Proyectos C# - Personal\Punto_VentaRG\obj\Release\Punto_VentaRG.csproj.GenerateResource.cache
+D:\Proyectos C# - Personal\Punto_VentaRG\obj\Release\Punto_VentaRG.csproj.CoreCompileInputs.cache
+D:\Proyectos C# - Personal\Punto_VentaRG\obj\Release\RG Clothing.exe.manifest
+D:\Proyectos C# - Personal\Punto_VentaRG\obj\Release\RG Clothing.application
+D:\Proyectos C# - Personal\Punto_VentaRG\obj\Release\RG Clothing.exe
+D:\Proyectos C# - Personal\Punto_VentaRG\obj\Release\RG Clothing.pdb
